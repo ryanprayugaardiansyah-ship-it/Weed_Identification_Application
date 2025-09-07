@@ -1,26 +1,21 @@
-
-## WEED IDENTIFICATION APPLICATION
-
 <div align="center">
 
-*Transforming Nature Insights into Actionable Solutions*
+# WEED IDENTIFICATION APPLICATION
+
+### *Transforming Nature Insights into Actionable Solutions*
 
 ![Java](https://img.shields.io/badge/java-100%25-blue?style=flat-square&logo=java)
 ![Last Commit](https://img.shields.io/badge/last_commit-today-green?style=flat-square)
 ![Languages](https://img.shields.io/badge/languages-1-lightgray?style=flat-square)
 
-</div>
+<br>
 
----
-
-## 🛠️ Built with the tools and technologies:
-
-<div align="center">
+## 🛠️ **Built with Modern Technologies**
 
 ![JSON](https://img.shields.io/badge/JSON-000000?style=flat-square&logo=json&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-[![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)](https://img.shields.io/badge/Android-34A853.svg?style=flat&logo=Android&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)
 ![Org](https://img.shields.io/badge/Org_Mode-77AA99?style=flat-square&logo=org&logoColor=white)
 ![Glide](https://img.shields.io/badge/Glide-4285F4?style=flat-square&logo=google&logoColor=white)
 
@@ -28,7 +23,8 @@
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 ![XML](https://img.shields.io/badge/XML-FF6600?style=flat-square&logo=xml&logoColor=white)
 ![Google](https://img.shields.io/badge/Google-4285F4?style=flat-square&logo=google&logoColor=white)
-
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
 </div>
 
