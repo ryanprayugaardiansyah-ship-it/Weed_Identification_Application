@@ -1,4 +1,5 @@
-# WEED IDENTIFICATION APPLICATION
+
+## WEED IDENTIFICATION APPLICATION
 
 <div align="center">
 
@@ -52,13 +53,12 @@ The **Weed Identification Application** is an innovative Android solution design
 
 ### 🚀 Technology Stack
 
-- **Platform**: Android (Java/Kotlin)
-- **Machine Learning**: TensorFlow
+- **Platform**: Android (Java)
+- **Machine Learning**: TensorFlow, Convolutional Neural Network, MobileNetV2
 - **Database**: SQLite  
 - **Image Processing**: Advanced computer vision algorithms
 - **Build System**: Gradle
 - **Image Loading**: Glide library
-- **Data Format**: JSON for configuration and data exchange
 
 ---
 
