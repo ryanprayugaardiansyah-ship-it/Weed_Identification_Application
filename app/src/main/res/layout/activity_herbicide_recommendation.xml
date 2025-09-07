@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/green"
+        app:layout_scrollFlags="scroll|enterAlways|snap"
+        app:navigationIcon="@drawable/panahsvg"
+        app:title="Rekomendasi Herbisida"
+        app:titleTextColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/herbicide1"
+        android:layout_width="50mm"
+        android:layout_height="wrap_content"
+        android:text="Herbicide 1"
+        android:textSize="18sp"
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="15dp"
+        android:textColor="#FF009D51"
+        android:padding="5dp"
+        android:background="@drawable/textview_background"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:shadowColor="#80000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1" />
+
+
+    <TextView
+        android:id="@+id/active_ingredient1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Active Ingredient 1"
+        android:textSize="15sp"
+        android:layout_below="@id/similarity_percentage1"
+        android:layout_marginTop="5dp"
+        android:textStyle="italic"
+        android:textColor="#000000"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/description1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description 1"
+        android:textSize="16sp"
+        android:layout_below="@id/active_ingredient1"
+        android:layout_marginTop="5dp"
+        android:textColor="#000000"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/similarity_percentage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Similarity: 0%"
+        android:textSize="12sp"
+        android:layout_below="@id/herbicide1"
+        android:layout_marginTop="5dp"
+        android:textColor="#808080"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/herbicide2"
+        android:layout_width="50mm"
+        android:layout_height="wrap_content"
+        android:text="Herbicide 2"
+        android:layout_below="@id/description1"
+        android:textSize="18sp"
+        android:layout_marginTop="25dp"
+        android:textColor="#FF009D51"
+        android:padding="5dp"
+        android:background="@drawable/textview_background"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:shadowColor="#80000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"/>
+
+    <TextView
+        android:id="@+id/active_ingredient2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Active Ingredient 2"
+        android:textSize="15sp"
+        android:layout_below="@id/similarity_percentage2"
+        android:textStyle="italic"
+        android:layout_marginTop="5dp"
+        android:textColor="#000000"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/description2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description 2"
+        android:textSize="16sp"
+        android:layout_below="@id/active_ingredient2"
+        android:layout_marginTop="5dp"
+        android:textColor="#000000"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/similarity_percentage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Similarity: 0%"
+        android:textSize="12sp"
+        android:layout_below="@id/herbicide2"
+        android:layout_marginTop="5dp"
+        android:textColor="#808080"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/herbicide3"
+        android:layout_width="50mm"
+        android:layout_height="wrap_content"
+        android:text="Herbicide 3"
+        android:textSize="18sp"
+        android:layout_below="@id/description2"
+        android:layout_marginTop="25dp"
+        android:textColor="#FF009D51"
+        android:padding="5dp"
+        android:background="@drawable/textview_background"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:shadowColor="#80000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"/>
+
+    <TextView
+        android:id="@+id/active_ingredient3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Active Ingredient 3"
+        android:textSize="15sp"
+        android:layout_below="@id/similarity_percentage3"
+        android:textStyle="italic"
+        android:layout_marginTop="5dp"
+        android:textColor="#000000"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/description3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description 3"
+        android:textSize="16sp"
+        android:layout_below="@id/active_ingredient3"
+        android:layout_marginTop="5dp"
+        android:textColor="#000000"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/similarity_percentage3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Similarity: 0%"
+        android:textSize="12sp"
+        android:layout_below="@id/herbicide3"
+        android:layout_marginTop="5dp"
+        android:textColor="#808080"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

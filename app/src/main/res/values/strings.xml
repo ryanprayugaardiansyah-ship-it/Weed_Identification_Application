@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Identifikasi Gulma</string>
+    <string name="ambil_gambar">Ambil Gambar</string>
+    <string name="keluar">Keluar</string>
+    <string name="pencarian_gulma">Pencarian Gulma</string>
+    <string name="riwayat">Riwayat</string>
+    <string name="tentang">Tentang</string>
+</resources>

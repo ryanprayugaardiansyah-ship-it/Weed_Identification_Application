@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/green"
+        app:layout_scrollFlags="scroll|enterAlways|snap"
+        app:navigationIcon="@drawable/panahsvg"
+        app:title="Tentang Gulma"
+        app:titleTextColor="@android:color/white"
+        tools:ignore="MissingConstraints" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/view_pager_gulma"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_centerHorizontal="true"/>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="3dp"
+        android:layout_below="@id/view_pager_gulma"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="#CFCFCF"
+        app:tabIndicatorColor="@color/green"
+        app:tabIndicatorFullWidth="true"
+        app:tabIndicatorHeight="5dp"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="#B1B1B1"
+        app:tabTextColor="#5A5A5A" />
+
+    <TextView
+        android:id="@+id/text_view_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_pager_gulma"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:text="Nama Gulma"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_view_nama_ilmiah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view_nama"
+        android:layout_marginTop="0dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif"
+        android:text="Nama Ilmiah"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/deskripsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view_nama_ilmiah"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="25dp"
+        android:text="Deskripsi Gulma :"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_view_deskripsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/deskripsi"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="sans-serif"
+        android:lineSpacingExtra="8sp"
+        android:text="Deskripsi Gulma"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:gravity="start|end"
+        android:justificationMode="inter_word"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

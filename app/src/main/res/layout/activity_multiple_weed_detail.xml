@@ -1,0 +1,189 @@
+<!-- activity_multiple_weed_detail.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/green"
+        app:layout_scrollFlags="scroll|enterAlways|snap"
+        app:navigationIcon="@drawable/panahsvg"
+        app:title="Hasil Identifikasi"
+        app:titleTextColor="@android:color/white" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="10dp">
+
+    <!-- Gulma 1 -->
+    <TextView
+        android:id="@+id/weed_name_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gulma 1"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="0dp"
+        android:paddingTop="10dp"/>
+
+    <TextView
+        android:id="@+id/scientific_name_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Ilmiah 1"
+        android:textColor="#000000"
+        android:layout_marginStart="15dp"
+        android:textStyle="italic"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/description_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deskripsi 1"
+        android:textColor="#000000"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="start|end"
+        android:justificationMode="inter_word"/>
+
+    <!-- Gulma 2 -->
+    <TextView
+        android:id="@+id/weed_name_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gulma 2"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="0dp"/>
+
+    <TextView
+        android:id="@+id/scientific_name_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Ilmiah 2"
+        android:textColor="#000000"
+        android:layout_marginStart="15dp"
+        android:textStyle="italic"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/description_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deskripsi 2"
+        android:textColor="#000000"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="start|end"
+        android:justificationMode="inter_word"/>
+
+    <!-- Gulma 3 -->
+    <TextView
+        android:id="@+id/weed_name_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gulma 3"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="0dp"/>
+
+    <TextView
+        android:id="@+id/scientific_name_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Ilmiah 3"
+        android:textStyle="italic"
+        android:textColor="#000000"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/description_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deskripsi 3"
+        android:textColor="#000000"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="start|end"
+        android:justificationMode="inter_word"/>
+
+    <!-- Rekomendasi Herbisida -->
+    <TextView
+        android:id="@+id/herbicide_recommendation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rekomendasi Herbisida"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginStart="15dp"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
+
+            <Button
+                android:id="@+id/button_rice"
+                android:layout_width="60mm"
+                android:layout_height="7mm"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="@color/green"
+                android:background="@drawable/rounded_button"
+                android:text="Lihat Herbisida untuk Tanaman Padi" />
+
+    <Button
+        android:id="@+id/button_corn"
+        android:layout_width="60mm"
+        android:layout_height="7mm"
+        android:text="Lihat Herbisida untuk Tanaman Jagung"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/green"
+        android:background="@drawable/rounded_button"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/button_sugarcane"
+        android:layout_width="60mm"
+        android:layout_height="7mm"
+        android:text="Lihat Herbisida untuk Tanaman Tebu"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/green"
+        android:background="@drawable/rounded_button"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/button_onion"
+        android:layout_width="60mm"
+        android:layout_height="7mm"
+        android:text="Lihat Herbisida untuk Tanaman Bawang Merah"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="@color/green"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_button"
+        android:layout_gravity="center"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

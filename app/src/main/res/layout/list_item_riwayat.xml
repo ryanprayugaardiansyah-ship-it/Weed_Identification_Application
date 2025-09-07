@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="15dp">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageViewWeed"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="5dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_launcher_background"
+        app:shapeAppearanceOverlay="@style/RoundedCornersImageView"/>
+
+    <TextView
+        android:id="@+id/textViewWeedName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#000000"
+        android:text="Nama Gulma"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewScientificName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewWeedName"
+        android:layout_marginTop="2dp"
+        android:layout_alignStart="@id/textViewWeedName"
+        android:text="Nama Ilmiah"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:textStyle="italic"/>
+
+</RelativeLayout>

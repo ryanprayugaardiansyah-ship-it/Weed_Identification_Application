@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <SurfaceView
+            android:id="@+id/camera_preview"
+            android:layout_width="70mm"
+            android:layout_height="93mm" />
+
+        <ImageView
+            android:id="@+id/focus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="11mm"
+            app:srcCompat="@drawable/focus2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="17mm"
+            android:padding="8dp"
+            android:text="Fokuskan ke objek gulma"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/temporary_image_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/Shutter"
+        android:layout_marginBottom="60dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_above="@id/Shutter"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp">
+
+        <Button
+            android:id="@+id/Single"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Single"
+            style="@style/CustomButtonStyle"/>
+
+        <Button
+            android:id="@+id/Multiple"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Multiple"
+            android:layout_marginStart="17mm"
+            android:layout_marginBottom="10dp"
+            style="@style/CustomButtonStyle" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/Shutter"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/button_circle_green" />
+
+    <ImageButton
+        android:id="@+id/Gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/Shutter"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="-67dp"
+        android:backgroundTint="#00FFFFFF"
+        android:src="@drawable/galeri" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="55dp"
+        android:layout_below="@id/Gallery"
+        android:fontFamily="sans-serif-medium"
+        android:text="Galeri"
+        android:textColor="@color/green"
+        android:textSize="14sp" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/Shutter"
+        android:layout_marginTop="114mm"
+        android:layout_marginStart="7mm">
+
+        <ImageButton
+            android:id="@+id/Help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/Shutter"
+            android:layout_alignParentEnd="true"
+            android:backgroundTint="#00FFFFFF"
+            android:src="@drawable/bantuan" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:layout_marginStart="11dp"
+            android:layout_below="@id/Help"
+            android:fontFamily="sans-serif-medium"
+            android:text="Bantuan"
+            android:textColor="@color/green"
+            android:textSize="14sp" />
+    </FrameLayout>
+
+</RelativeLayout>

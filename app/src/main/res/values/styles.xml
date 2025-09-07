@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Gaya untuk ShapeableImageView dengan sudut membulat -->
+    <style name="RoundedCornersImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">10dp</item> <!-- Sesuaikan ukuran radius sesuai kebutuhan -->
+    </style>
+
+    <style name="CustomButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">#009D51</item>
+        <item name="android:background">@drawable/custom_button_background</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+</resources>
